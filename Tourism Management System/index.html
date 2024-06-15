@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tourism Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="#">Destinations</a></li> -->
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li>
+  <a href="#" id="contact-dropdown" aria-haspopup="true" aria-expanded="false" onclick="toggleContactInfo()">Contact</a>
+  <div id="contact-info" aria-labelledby="contact-dropdown" style="display: none;">
+    <p>Name: Chetan Chauhan</p>
+    <p>Phone: <a href="tel:+91">+91 9634848412</a></p>
+    <p>Email: <a href="mailto:john.doe@example.com">Chetanchauhan0003@gmail.com</a></p>
+  </div>
+</li>
+
+<script>
+  function toggleContactInfo() {
+    var contactInfo = document.getElementById('contact-info');
+    var isExpanded = contactInfo.style.display === 'block';
+    contactInfo.style.display = isExpanded ? 'none' : 'block';
+  }
+</script>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <h2>Explore the World with Us</h2>
+            <p>Discover new places, create unforgettable memories.</p>
+            <a href="booking.html" class="btn">Book Now</a>
+        </section>
+        <head>
+    <!-- Other head elements -->
+    <link rel="stylesheet" href="path_to_your_stylesheet.css">
+</head>
+       <section id="featured-destinations">
+    <h2>Featured Destinations</h2>
+    <div class="destination">
+        <img src="destination1.jpg" alt="Destination 1">
+        <div class="destination-info">
+            <h3>Destination 1 (AGRA)</h3>
+            <p>Agra, located in the northern state of Uttar Pradesh, India, is a city steeped in history and renowned for its architectural marvels.</p>
+        </div>
+    </div>
+    <div class="destination">
+        <img src="destination2.jpg" alt="Destination 2">
+        <div class="destination-info">
+            <h3>Destination 2 (GOA) </h3>
+            <p>Goa, the smallest state in India, is located on the western coast and is renowned for its stunning beaches, vibrant nightlife, rich history, and diverse culture.</p>
+        </div>
+    </div>
+    <div class="destination">
+        <img src="destination3.jpg" alt="Destination 3">
+        <div class="destination-info">
+            <h3>Destination 3 (Mumbai) </h3>
+            <p>Mumbai, the capital of Maharashtra, is India's largest city and its financial and entertainment hub. Known as the "City of Dreams,</p>
+        </div>
+        
+    </div>
+</section>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Tourism Management System</p>
+    </footer>
+</body>
+</html>
